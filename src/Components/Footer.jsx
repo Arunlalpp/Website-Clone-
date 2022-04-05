@@ -8,7 +8,7 @@ function Footer() {
         <div  className='footer'>
                 <img src={footer} alt='' />
             </div>
-            <ul className='footer-list'>
+            <ul className='footer-lists'>
                 <h4  className='footer-text'>Products & Services</h4>
                 <li>App Subscription Clubs</li>
                 <li>Games Club</li>
