@@ -1,7 +1,6 @@
 body {
   margin: 0px;
   padding: 0px;
-
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
@@ -160,6 +159,7 @@ nav .menu-btn,
   font-size: 1rem;
   margin: 0px;
   padding: 0px;
+  font-family: sans-serif;
 }
 
 .f-heading {
@@ -457,6 +457,51 @@ nav .menu-btn,
 .contact-input a:hover {
   background-color: #0099ff;
 }
+#footer-sec
+{
+  background: cadetblue;
+  width: 100%;
+  margin: 0 auto;
+}
+.section
+{
+ display: flex;
+ cursor: pointer;
+}
+.section ul li 
+{
+  color: #222222;
+  padding: 0.3rem 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  transition: all ease-out 0.2s;
+}
+.section ul li:hover
+{
+  color: #ffff;
+}
+.footer-text
+{
+  color: #222222;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+.footer
+{
+  max-width: 28%;
+}
+.footer img
+{
+  left: 0;
+  right: 0;
+  top: 0;
+  max-width: 40%;
+  margin-top: 8rem;
+  margin-left: 1rem;
+}
+
+
 
 @media(max-width:1190px) {
   #main {
@@ -556,7 +601,7 @@ nav .menu-btn,
     margin-bottom: 100px;
   }
 
-  #presentaion {
+  #presentation {
     display: none;
   }
 }

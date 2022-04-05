@@ -8,7 +8,7 @@ function About(props) {
         </div>
         <div className='about-text'>
             <h2>{props.title}</h2>
-            <p></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic praesentium necessitatibus</p>
             <button>{props.button}</button>
         </div>
     </div>

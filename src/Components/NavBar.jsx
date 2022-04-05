@@ -28,8 +28,6 @@ function NavBar() {
             </label>
             <ul className='menu'>
                 <li><a href='#' className='active'>Home</a></li>
-
-                <li><a href='#'>Home</a></li>
                 <li><a href='#'>Features</a></li>
                 <li><a href='#'>About</a></li>
                 <li><a href='#'>UL SS</a></li>
