@@ -2,8 +2,8 @@ import React from 'react'
 import About from './Components/About';
 import Feature from './Components/Feature';
 import Header from './Components/Header';
-import aboutimage from '../images.Frame 19.png';
-import aboutimage1 from '../images.download.png';
+import aboutimage from './images/Frame 19.png';
+import aboutimage1 from './images/download.png';
 function App() {
   return (
     <div className="App">
